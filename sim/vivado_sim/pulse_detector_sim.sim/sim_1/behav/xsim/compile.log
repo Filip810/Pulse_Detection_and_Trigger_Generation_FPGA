@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/filip/Desktop/SDUP/rtl/pulse_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulse_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/filip/Desktop/SDUP/sim/tb_pulse_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_pulse_detector

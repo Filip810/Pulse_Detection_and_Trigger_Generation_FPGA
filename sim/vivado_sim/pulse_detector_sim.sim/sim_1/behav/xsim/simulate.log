@@ -1,0 +1,44 @@
+Time resolution is 1 ps
+=== TB START: pulse_detector ===
+[65000] Reset released
+[65000] Sending 20 baseline samples (value=500)
+[465000] Sending trigger sample (value=1200 > threshold=1000)
+[535000] PASS: trigger_flag asserted, trigger_time=44
+[635000] Dropping below hysteresis (value=850)
+[1125000] PASS: capture_done asserted. buf[12..42]
+[1125000] Reading full capture window buf[12..42]:
+  buf[12] = 500
+  buf[13] = 500
+  buf[14] = 500
+  buf[15] = 500
+  buf[16] = 500
+  buf[17] = 500
+  buf[18] = 500
+  buf[19] = 500
+  buf[20] = 1200
+  buf[21] = 1200
+  buf[22] = 1200
+  buf[23] = 1200
+  buf[24] = 1200
+  buf[25] = 1200
+  buf[26] = 850
+  buf[27] = 500
+  buf[28] = 500
+  buf[29] = 500
+  buf[30] = 500
+  buf[31] = 500
+  buf[32] = 500
+  buf[33] = 500
+  buf[34] = 500
+  buf[35] = 500
+  buf[36] = 500
+  buf[37] = 500
+  buf[38] = 500
+  buf[39] = 500
+  buf[40] = 500
+  buf[41] = 500
+  buf[42] = 500
+[1475000] Re-armed
+[1545000] PASS: no trigger when disabled
+=== ALL TESTS PASSED ===
+$finish called at time : 1645 ns : File "C:/Users/filip/Desktop/SDUP/sim/tb_pulse_detector.v" Line 163
